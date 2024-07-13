@@ -1,0 +1,198 @@
+body{
+  padding: 0;
+  height: 100vh;
+  width: 100%;
+  background-image: conic-gradient(green,yellow, blue,red,green);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: rgb(0, 0, 0);
+  font-family: 'Poppins', sans-serif;
+}
+a{
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+
+a:hover{
+  color: #cecece;
+  text-decoration: underline;
+  box-shadow: 10px;
+}
+
+.header{
+  position: fixed;
+  top: 10px;  
+  display: inline-block;
+  margin-right: 8px;
+  
+}
+
+.header img{
+  position: relative;
+  top: 10px;
+  width: 35px;
+}
+.header a{
+  font-size: 0.8rem;
+  margin-left: 10px;
+}
+.button{
+  padding:10px 15px;
+  border-radius: 25px;
+  background-color: #0073ff;
+  color: white;
+}
+
+.logo{
+  width: 280px;
+  margin-bottom: 1.5rem;
+}
+.flex-container .speech-input{
+  border: 1px solid #ccc;
+  margin-right:15px ;
+  padding: 8px 12px;
+  border-radius: 25px;
+}
+.flex-container .speech-input input{
+  width: 400px;
+  border: 0;
+  outline: 0;
+  background: transparent;
+}
+.flex-container .speech-input img{
+  width: 15px;
+}
+form input{
+  height: 8px;
+}
+.rr:hover{
+  cursor: pointer;
+}
+.flex-container{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+input{
+  padding: 15px;
+  width: 450px;
+  border: none;
+  border-radius: 24px;
+  font-size: 1rem;
+  background-color: rgb(241, 243, 244, 1);
+}
+
+input:focus{
+  outline: none;
+}
+
+.grid-container{
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  grid-column-gap: 10px;
+  margin-top: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.grid-container a{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.grid-container a:hover .image-container{
+  background-color: #cecece;
+}
+
+.image-container{
+  background-color: rgb(241, 243, 244, 1);
+  width: 45px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  transition: all 0.5s; 
+  text-align: center;
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.grid-container img{
+  width: 30px;
+  height: 30px;
+}
+
+.grid-container button{
+  background-color: white;
+  padding: 4px 16px;
+  border: none;
+  border-radius: 16px;
+  width: 108px;
+}
+@media only screen and (max-width: 800px){
+  .grid-container{
+    grid-template-columns: auto auto auto auto;
+  }
+  #whatsapp, #google{
+    display: none;
+  }
+  input{
+    width: 350px;
+  } 
+}
+@media only screen and (max-width: 600px){
+  .grid-container{
+    grid-template-columns: auto auto auto;
+  }
+
+  #insta, #firebase{
+    display: none;
+  }
+
+  input{
+    width: 250px;
+  }  
+}
+.jk{
+  margin-left: 0px;
+  padding:0;
+}
+.je{
+  margin-left: 150px;
+  margin-right: 150px;
+}
+.we,.we li{
+    display: inline;
+    list-style-type: none; 
+    padding-right: 10px;
+}
+nav{
+  font-size:larger;
+}
+.we li:hover{
+  cursor: pointer;
+  text-decoration: underline;
+}
+.sd1 img{
+  border-radius: 25px;
+  border: rgb(84, 84, 84) solid 1px;
+}
+.sd p{
+  margin-top: -30px;
+  color: white;
+  background-color: grey;
+}
+.ff{
+  margin-top: 10px;
+  background-color: gray;
+}
